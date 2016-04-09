@@ -1,13 +1,32 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ansi (1.5.0)
+    ast (2.2.0)
+    coderay (1.1.1)
+    cuba (3.6.0)
+      rack (~> 1.6.0)
+    method_source (0.8.2)
+    oga (2.2)
+      ast
+      ruby-ll (~> 2.1)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     rack (1.6.4)
+    ruby-ll (2.1.2)
+      ansi
+      ast
+    slop (3.6.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rack
+  cuba
+  oga
+  pry
 
 BUNDLED WITH
    1.11.2

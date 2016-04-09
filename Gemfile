@@ -1,2 +1,4 @@
 source 'https://rubygems.org'
-gem 'rack'
+gem 'cuba'
+gem 'oga'
+gem 'pry'
