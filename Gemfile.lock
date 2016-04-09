@@ -6,6 +6,8 @@ GEM
     coderay (1.1.1)
     cuba (3.6.0)
       rack (~> 1.6.0)
+    daemons (1.2.3)
+    eventmachine (1.2.0.1)
     method_source (0.8.2)
     oga (2.2)
       ast
@@ -19,14 +21,20 @@ GEM
       ansi
       ast
     slop (3.6.0)
+    thin (1.6.4)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (~> 1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   cuba
   oga
   pry
+  thin
 
 BUNDLED WITH
    1.11.2
