@@ -1,1 +1,1 @@
-web: bundle exec rails server
+web: bundle exec rackup -s thin -p $PORT
