@@ -6,9 +6,8 @@ require 'json'
 require 'pry'
 require './scrape'
 
-Cuba.use Rack::Session::Cookie, :secret => "__a_very_long_string__"
-
-Cuba.plugin Cuba::Safe
+# Cuba.use Rack::Session::Cookie, :secret => "__a_very_long_string__"
+# Cuba.plugin Cuba::Safe
 
 Cuba.define do
   on get do
