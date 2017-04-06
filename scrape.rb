@@ -19,7 +19,7 @@ class Scrape
   end
 
   def headers
-    document.css('.recordsetheader-center').collect {|header| header.text.strip }
+    document.css('.recordsetheader-center').collect { |header| header.text.strip }
   end
 
   def values
@@ -30,7 +30,7 @@ class Scrape
   end
 
   def data
-    {headers: headers, invoices: values}
+    { headers: headers, invoices: values }
   end
 
   def to_json
